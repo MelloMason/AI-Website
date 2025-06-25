@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI‑Powered Freelance Support – Mason</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary:#2563eb;         /* electric blue */
+    --primary-dark:#1e40af;
+    --bg:#f9fafb;
+    --text:#111827;
+    --muted:#6b7280;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;font-family:'Inter',sans-serif;}
+  body{background:var(--bg);color:var(--text);line-height:1.6;}
+  header{padding:4rem 1rem;text-align:center;background:white;}
+  header h1{font-size:2.25rem;font-weight:700;margin-bottom:1rem;}
+  header p{font-size:1.125rem;color:var(--muted);margin-bottom:2rem;}
+  .btn{display:inline-block;padding:.75rem 1.5rem;margin:.25rem;border-radius:.5rem;
+       font-weight:600;text-decoration:none;color:white;background:var(--primary);}
+  .btn:hover{background:var(--primary-dark);}
+  section{padding:4rem 1rem;max-width:1000px;margin:auto;}
+  h2{font-size:1.75rem;font-weight:700;margin-bottom:1.5rem;text-align:center;}
+  .grid{display:grid;gap:1.5rem;}
+  @media(min-width:600px){.grid{grid-template-columns:repeat(2,1fr);} }
+  @media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr);} }
+  .card{background:white;padding:2rem;border-radius:.75rem;box-shadow:0 4px 6px rgba(0,0,0,.05);}
+  .card h3{font-size:1.25rem;margin-bottom:.5rem;}
+  .card p{color:var(--muted);font-size:.95rem;}
+  .testimonials{background:white;border-left:4px solid var(--primary);padding:1rem 1.5rem;margin:.75rem 0;}
+  .pricing{display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:center;}
+  .price-card{flex:1 1 250px;background:white;padding:2rem;border-radius:.75rem;box-shadow:0 4px 6px rgba(0,0,0,.05);text-align:center;}
+  .price-card h3{margin-bottom:.5rem;}
+  .price-card .price{font-size:2rem;font-weight:700;margin:1rem 0;}
+  footer{padding:2rem 1rem;text-align:center;color:var(--muted);}
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<header id="hero">
+  <h1>AI‑Powered Freelance Support to Save You Time &amp; Accelerate Your Business</h1>
+  <p>Whether you need content, automation, research, or admin support—I'll handle it in hours, not days.</p>
+  <a href="#contact" class="btn">Book a Free Call</a>
+  <a href="#services" class="btn" style="background:var(--primary-dark);">See Services</a>
+</header>
+
+<!-- Services -->
+<section id="services">
+  <h2>What I Offer</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>✍️ AI Copywriting &amp; Content</h3>
+      <p>Blog posts, email newsletters, landing pages—fast, SEO‑friendly, and on‑brand.</p>
+    </div>
+    <div class="card">
+      <h3>⚙️ Workflow Automation &amp; Zapier</h3>
+      <p>Connect your apps, eliminate manual tasks, and build no‑code automations.</p>
+    </div>
+    <div class="card">
+      <h3>📊 AI‑Powered Research &amp; Reports</h3>
+      <p>Market analysis, competitor insights, and data summaries delivered in hours.</p>
+    </div>
+    <div class="card">
+      <h3>📩 Email Outreach Campaigns</h3>
+      <p>Prospecting lists, personalized copy, and automated follow‑ups that convert.</p>
+    </div>
+    <div class="card">
+      <h3>🎨 Presentation &amp; Slide Creation</h3>
+      <p>Polished decks for sales, investor pitches, or internal trainings.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Why Work With Me -->
+<section id="why">
+  <h2>Why Work With Me?</h2>
+  <div class="testimonials">
+    <p><strong>“You get the speed of AI with the judgment of a human.”</strong></p>
+    <p>Deadlines met. Quality checked. Prices that scale.</p>
+  </div>
+  <!-- Placeholder for future testimonials -->
+</section>
+
+<!-- About / Process -->
+<section id="about">
+  <h2>About Me &amp; My Process</h2>
+  <p style="text-align:center;max-width:700px;margin:auto;">
+    I’m <strong>Mason</strong>—a sales pro turned AI freelancer. I use tools like ChatGPT, Zapier, and Notion to help busy professionals get more done, without the usual agency overhead.
+  </p><br/>
+  <div class="grid" style="max-width:800px;">
+    <div class="card"><h3>1. Discovery Call</h3><p>We discuss goals, scope, and success metrics.</p></div>
+    <div class="card"><h3>2. Task Delivered</h3><p>You receive polished work—often within 24 hours.</p></div>
+    <div class="card"><h3>3. Follow‑Up &amp; Optimization</h3><p>Iterate, refine, and scale as your needs grow.</p></div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section id="pricing">
+  <h2>Pricing &amp; Packages</h2>
+  <div class="pricing">
+    <div class="price-card">
+      <h3>Starter</h3>
+      <p class="price">$99/mo</p>
+      <p>1 Task per Week</p>
+      <a href="#contact" class="btn">Start Now</a>
+    </div>
+    <div class="price-card">
+      <h3>Pro</h3>
+      <p class="price">$499/mo</p>
+      <p>Daily Tasks</p>
+      <a href="#contact" class="btn">Start Now</a>
+    </div>
+    <div class="price-card">
+      <h3>Custom</h3>
+      <p class="price">Quote</p>
+      <p>Tailored to Your Needs</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Let’s Talk</h2>
+  <p style="text-align:center;">Book a free 15‑minute call or send a quick message.</p>
+  <!-- Calendly embed placeholder -->
+  <div style="margin:2rem auto;max-width:600px;">
+    <!-- Replace src with your Calendly link -->
+    <iframe src="https://calendly.com/your-link/15min" style="width:100%;height:630px;border:none;"></iframe>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Mason – AI‑Powered Freelance Support
+</footer>
+
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
